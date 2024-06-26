@@ -42,24 +42,24 @@ This database is maintained by the Centre for Research on the Epidemiology of Di
 
 
 ## Cleaning and Analysis Process
-1. I began with cleaning the World Risk Survey data. The original dataset had 243 columns; I dropped the columns related to risk categories not dealing with natural disasters, as well as columns related to regions for each country in the survey. I had originally hoped to identify disaster-affected areas by region, but quickly realized that the regions/locations specified in the survey dataset did not match up with ones in the disasters dataset. Therefore, the location analysis in this project is based on countries as a whole.
+I began with cleaning the World Risk Survey data. The original dataset had 243 columns; I dropped the columns related to risk categories not dealing with natural disasters, as well as columns related to regions for each country in the survey. I had originally hoped to identify disaster-affected areas by region, but quickly realized that the regions/locations specified in the survey dataset did not match up with ones in the disasters dataset. Therefore, the location analysis in this project is based on countries as a whole.
 
 One challenge with this dataset was that the answers to each survey question and demographic marker for each participant were coded as numbers. In Python, I created a data dictionary for each coded column (50 in total) and remapped the values so that each participant's answer was listed rather than just a number. 
 
 I also dropped rows related to the 2019 survey responses. With more time, I would have liked to analyze the difference in responses between 2019 and 2021, and compare to disasters that occurred between the 2 surveys.
 
-2. The EM-DAT data didn't require as much intensive cleaning. I removed all disasters classified as "Technological" and "Biological" since my focus was on natural disasters. More information on disaster classification can be found here: https://doc.emdat.be/docs/data-structure-and-content/disaster-classification-system/
+The EM-DAT data didn't require as much intensive cleaning. I removed all disasters classified as "Technological" and "Biological" since my focus was on natural disasters. More information on disaster classification can be found here: https://doc.emdat.be/docs/data-structure-and-content/disaster-classification-system/
 
 As I continued my analysis, I also created a subset of the disaster dataset looking at just the five-year period prior to the survey being administered. I used this for most of my analysis, as one of the survey questions asked about experience with disasters in the last five years. 
 
-3. One of the main challenges in analysis was the abundance of data in both datasets, and deciding which measures would be most appropriate to answer the data questions I had set for myself. As I explored the data I gradually determined which columns in the datasets would be best to measure what I was looking for - these are further explained in the dashboard and accompanying video.
+One of the main challenges in analysis was the abundance of data in both datasets, and deciding which measures would be most appropriate to answer the data questions I had set for myself. As I explored the data I gradually determined which columns in the datasets would be best to measure what I was looking for - these are further explained in the dashboard and accompanying video.
 
 As I looked at how different factors influenced risk perception, I was able to use tools such as slicers and key influencer graphics in my Power BI dashboard to illuminate the impact of those factors. I also used color in bar charts and maps to highlight commonalities between the two datasets.
 
 ## Further Recommendations
 As I thought about the impact of my analysis and my recommendations for next steps, I focused on the idea of disaster preparedness. Obviously we can't prevent natural disasters from happening, but we can empower people with the tools to be prepared. My social work background led me to curiosity about the best ways to do that, and how to incorporate mental health support into that preparedness work. As mentioned on the last tab of the dashboard, I found a study done in 2020 in Haiti in an earthquake and flood-prone area. Through an intervention conducted by native Haitians, participants were able to receive information about how to prepare as well as how to maintain their mental health. Significant results were achieved through this work, and I hope something like it can be expanded to other places like Southeast Asia, which experiences frequent and severe disasters.   
 
-##Contact
+## Contact
 Please reach out via email at eem.chadwick@gmail.com with any questions! 
 
 -Emily Chadwick
