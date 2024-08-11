@@ -1,6 +1,8 @@
 
 # Natural Disasters: Analyzing Worldwide Risk Perception & Experience
 > This project utilized survey data from the Lloyds Register Foundation World Risk Poll and the EM-DAT International Disaster Database to explore the correlation between perception of risk from natural disasters and actual experience of natural disasters. I also analyzed factors such as country-level experience, disaster severity, and differences in risk perception based on demographic differences.
+>
+> You can watch a recording of my final presentation here: https://youtu.be/Km0xLa4Nq9E 
 
 
 ## Table of Contents
